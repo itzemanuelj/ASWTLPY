@@ -3,9 +3,9 @@
 species = "cat"
 
 if species == "cat":
-    print("Yep, it's cat.")
+  print("Yep, it's cat.")
 else:
-    print("Nope, not cat.")
+  print("Nope, not cat.")
 
 # If the condition tested in line 1 fails, line 3 tests for a different condition. What keyword goes in the blank?
 
@@ -14,11 +14,11 @@ donut_condition = "fresh"
 donut_price = "10"
 
 if donut_condition == "fresh":
-    buy_score = 10
+  buy_score = 10
 elif donut_price == "low":
-    buy_score = 5
+  buy_score = 5
 else:
-    buy_score = 0   
+  buy_score = 0   
 
 # Code the next line that says what to do if the test fails.
 
@@ -26,9 +26,9 @@ a = 1
 b = 1
 
 if a == b:
-   print("a equals b")
+  print("a equals b")
 else: 
-    print("a doesnt equal b")
+  print("a doesnt equal b")
 
 # Code the next line. If a doesn't equal b, test whether c equals d.
 
@@ -36,11 +36,11 @@ c = 2
 d = 3
 
 if a == b:
-   print("a equals b")
+  print("a equals b")
 elif a != b:
-    print("a != b")
+  print("a != b")
 else:
-    c != d
+  c != d
 
 # Code four lines. If a equals b, c equals d. If the test fails, e equals f.
 
@@ -48,9 +48,9 @@ e = 4
 f = 5
 
 if a == b:
-    c = d
+  c = d
 else:
-    e = f
+  e = f
 
 # Code four lines. If a equals b, c equals d. If that test fails, then if e equals f, g equals h
 
@@ -79,5 +79,17 @@ else:
 if a == 1:
   print("a equals 1")
 else :
-   a == 2
-   print("a equals 2")
+  a == 2
+  print("a equals 2")   
+
+# Code the next two lines. If the first two tests fail, display "failed".
+
+if a == b:
+  print("ok")
+elif c == d:
+  print("ok")
+else:
+  print("failed")
+
+
+
