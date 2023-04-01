@@ -92,4 +92,30 @@ else:
   print("failed")
 
 
+# Code six lines. If a equals b, display "ok". If not, then if c equals d, display "ok". If both tests fail, display "failed".
 
+if a == b:
+  print("ok")
+elif c == d:
+  print("ok")
+else:
+  print("failed")
+
+if "dog" == "cat":
+  print ("That's crazy")
+else:
+  print("wrong")
+
+# On the next two lines, display "wrong" if the condition isn't met.
+# Display wrong if the condition isn't met.
+
+
+if "dog" == "cat":
+  proposition = "crazy"
+else:
+  print("ok")
+
+# On the next two lines, if the condition above isn't met,
+# test whether "cat" is equal to "cat"
+# If so, display "ok"
+# If the first condition isn't met, test whether "cat" equals "cat." If so display ok
