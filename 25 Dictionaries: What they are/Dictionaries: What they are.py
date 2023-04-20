@@ -56,4 +56,19 @@ piece = devices[2,4]
 devices = ["computer", "smart phone", "tablet", "smart watch", "video game console"]
 devices.remove('computer')
 
-  
+## Pop "bunny" off the hoppers list and append it to the pets list. Then display the pets list.
+
+hoppers = ["rabbit", "hare", "bunny", "cottontail"]
+pets = ["dog", "cat", "fish"]
+
+pets.append(hoppers.pop(2))
+
+## append pop remove add insert
+
+## Insert an element of the tuple into the first position (index 0) in the list. Then display the list.
+
+fruits_i_like = ["apple", "pear", "plum"]
+citrus_fruit_list = ("tangerine", "orange", "grapefruit")
+
+fruits_i_like.insert(0, citrus_fruit_list[2])
+print(fruits_i_like)
